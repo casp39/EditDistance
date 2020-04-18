@@ -18,6 +18,6 @@ def EditDistance(str1,str2):
     return distance[m][n]
 
 if __name__ == '__main__':
-    str1 = 'sheep'
+    str1 = 'ship'
     str2 = 'sheep'
     print(EditDistance(str1,str2))
