@@ -1,4 +1,4 @@
-class StringEditDistance:
+class StringEditDistance(object):
     def __init__(self, s1, s2):
         self.s1, self.s2 = s1, s2
         self.m, self.n = len(self.s1), len(self.s2)
@@ -40,6 +40,7 @@ class StringEditDistance:
                 i -= 1
                 j -= 1
         return s1[::-1], s2[::-1]
+
 
 if __name__ == '__main__':
     str1 = 'cafe'
